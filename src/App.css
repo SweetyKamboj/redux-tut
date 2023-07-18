@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  /* background-color: #ffcce7;
+  height:100%; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  */
+/* .home-container{
+  background-color: #ffb3db;
+} */
+.cart-wrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffb3db;
+    border-radius:3px;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-left:50px;
+    background-color: #ffb3db;
+
+}
+.cart-wrapper .item {
+ padding-top:10px;
+ padding-bottom: 10px;
+
+}
+.image-wrapper img{
+   width:50px;
+}
+.text-wrapper span{
+   display: block;
+   font-weight: 500;
+   color:white;
+}
+
+.add-btn-wrapper .add{
+   background-color: rgb(255, 20, 147);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(255,20,147);
+}
+
+.remove-btn-wrapper .remove{
+  background-color: rgb(231, 23, 231);
+   color: white;
+   padding: 10px;
+   border-radius: 6px;
+   border: 1px solid rgb(231, 23, 231);
+}
+
+.add-to-cart img {
+  width: 60px;
+  position: absolute;
+  right: 1%;
+  /* top: 1%; */
+}
+
+.add-to-cart span {
+  position: absolute;
+  right: 26px;
+  top: 11px;
+  z-index: 1;
+  font-weight:600;
+  color:white;
+  background-color: rgb(255,20,147);
+  width:23px;
+  border-radius:50%;
+  padding:1px;
+}
